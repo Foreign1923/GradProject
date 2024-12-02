@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EconoMate
+#Projenin Backend kısmı bitmediği için sadece Frontend kısmı mevcuttur
+EconoMate, kullanıcıların ev ekonomilerini verimli bir şekilde yönetmelerine yardımcı olmak için geliştirilmiş bir web ve mobil uygulamadır. 
+Proje, bütçe yönetimi, harcama takibi ve finansal analiz gibi işlevleri kullanıcı dostu bir arayüzle sunmayı amaçlamaktadır. 
 
-## Getting Started
+Bu projede kullanıcılar için etkileşimli bir **dashboard** geliştirilmiş olup, finansal verilerin görselleştirilmesi ve detaylı analizi sağlanmıştır. 
 
-First, run the development server:
+## Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Dashboard
+- **Finansal Verilerin Görselleştirilmesi:**  
+  - Gelir, gider ve tasarruf verileri grafik ve tablolarla kullanıcıya sunulmaktadır.  
+- **Bütçe Yönetimi:**  
+  - Kullanıcılar aylık bütçelerini belirleyebilir ve harcamalarını planlayabilir.  
+- **Kategori Bazlı Harcama Takibi:**  
+  - Harcamalar farklı kategorilere ayrılarak analiz edilebilir.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Kullanıcı İşlevleri
+- **Kayıt ve Giriş İşlemleri:**  
+  - Kullanıcılar hesap oluşturabilir ve giriş yapabilir.  
+- **Veri Yönetimi:**  
+  - Gelir ve gider verileri düzenlenebilir ve yeni kayıtlar eklenebilir.  
+- **Analiz ve Öngörüler:**  
+  - Kullanıcılara geçmiş harcamalarına dayanarak bütçe önerileri sunulmaktadır.  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Güvenlik
+- **Kullanıcı Verileri:**  
+  - Tüm veriler güvenli bir şekilde saklanmakta ve gizlilik korunmaktadır.  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Teknolojiler
+- **Frontend:** React.js, Next.js  
+- **UI Framework:** Tailwind CSS  
+- **State Management:** Redux  
+- **Design Tools:** Figma  
+- **Version Control:** Git  
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Kurulum
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/Foreign1907/EconoMate.git
